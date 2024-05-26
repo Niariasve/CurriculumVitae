@@ -73,9 +73,14 @@ img {
   text-transform: uppercase;
 }
 
+.ls-1 {
+  letter-spacing: 1px;
+}
+
 .g-2c {
   display: grid;
   grid-template-columns: 25% 75%;
+  gap: 1rem;
 }
 
 /* Header */
@@ -137,6 +142,10 @@ img {
   position: relative;
 }
 
+.hero h1 {
+  color: var(--blanco);
+}
+
 .contenido-hero {
   position: absolute;
   background-color: rgba(0, 0, 0, 0.645);
@@ -147,6 +156,29 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: var(--blanco);
+}
+
+.hero-informacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  .hero-informacion {
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .hero-informacion p {
+    margin: 0.5rem auto;
+  }
+}
+
+.svg-hero {
+  width: 24px;
 }
 
 .imagen-perfil {
@@ -155,11 +187,42 @@ img {
 
 /* Datos Personales */
 
-.datos-personales {
+.informacion-personal {
   display: flex;
   flex-direction: column;
 }
 
+.informacion-personal h2 {
+  font-size: 2rem;
+}
+
+.info-per {
+  text-align: center;
+}
+
+.info-per p {
+  margin: 1rem;
+}
+
+/* Contenido Principal */
+
+.contenido-principal h2, .contenido-principal h3 {
+  text-align: left;
+  position: relative;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.contenido-principal h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  height: 5px;
+  width: 100%;
+  background-color: var(--secundario);
+}
 
 
 /* Habilidades
