@@ -51,7 +51,6 @@ img {
 }
 
 .contenedor {
-  width: 95%;
   max-width: 100rem;
   margin: 0 auto;
 }
@@ -107,7 +106,6 @@ img {
 .navegacion {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 @media (min-width: 768px) {
@@ -123,6 +121,7 @@ img {
   padding: 1.5rem;
   color: var(--blanco); 
   font-weight: 700;
+  font-size: 2rem;
 }
 
 .navegacion a:hover {
@@ -206,6 +205,13 @@ img {
 
 /* Contenido Principal */
 
+@media (max-width: 768px) {
+    .contenedor-principal{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+}
+
 .contenido-principal h2, .contenido-principal h3 {
   text-align: left;
   position: relative;
@@ -224,51 +230,8 @@ img {
   background-color: var(--secundario);
 }
 
+/* Contacto */
 
-/* Habilidades
-.contenedor-habilidades {
-  display: grid;
-  gap: 2rem;
-  grid-template-columns: repeat(2, 1fr);
+.formulario {
+
 }
-
-@media (min-width: 768px) {
-  .contenedor-habilidades {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
-
-/* Habilidad */
-
-/* .habilidad {
-  display: flex;
-  gap: 1rem;
-  flex-direction: column;
-  align-items: center;
-  border: 2px solid var(--oscuro);
-  border-radius: 1rem;
-  padding: 2rem;
-  width: 25rem;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  text-align: center;
-}
-
-.habilidad .icon {
-  width: 5rem;  
-  height: 5rem;
-}
-
-.habilidad ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.habilidad ul li {
-  font-size: 1.8rem;
-  margin: 5px 0;
-}
-
-.habilidad li {
-
-} */ 
