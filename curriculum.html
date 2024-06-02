@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Curriculum Vitae, HTML, CSS, JavaScript, PHP, desarrollador, Nestor Arias, Java, Python">
+    <meta name="description" content="Curriculum Vitae de Néstor Arias Velásquez, con habilidades en lenguajes de programación, desarrollo web y bases de datos.">
+    <meta name="author" content="Arias Velásquez Néstor Ignacio">
     <title>Curriculum Viate</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,6 +21,8 @@
               <nav class="navegacion contenedor">   
                 <a href="#educacion">Educación</a>
                 <a href="#habilidades">Habilidades</a>
+                <a href="#objetivo">Objetivo</a>
+                <a href="#proyecto">Proyecto</a>
                 <a href="#contacto">Contacto</a> 
               </nav>
             </div>
@@ -94,8 +99,42 @@
             <div class="campo-cont-principal">
                 <h2 id="habilidades" class="uppercase ls-1">Habilidades</h2>
                 <h3>Lenguajes de Programación</h3>
+                <p>
+                    Poseo un sólido dominio de varios lenguajes de programación. Estoy especialmente bien versado en Java, PHP y Python, habiendo trabajado extensivamente con estos
+                    lenguajes en diversos proyectos académicos y personales. Tengo conocimientos básicos de C, lo cual me ha permitido entender los conceptos fundamentales de la
+                    programación de bajo nivel y la gestión de memoria. Además, tengo una comprensión básica de JavaScript, lo que me ha permitido incursionar en el desarrollo
+                    web y mejorar mi capacidad para crear aplicaciones interactivas y dinámicas.
+                </p>
                 <h3>Desarrollo Web</h3>
+                <p>
+                    En cuanto al desarrollo web, tengo un buen dominio de HTML, CSS y Sass, habilidades que me permiten crear interfaces de usuario atractivas y responsivas. 
+                    También manejo Gulp para la automatización de tareas y optimización de flujos de trabajo. Mi conocimiento de JavaScript y PHP me capacita para desarrollar 
+                    aplicaciones web dinámicas y funcionales, integrando tanto el frontend como el backend de los sitios web que desarrollo.
+                </p>
                 <h3>Bases de Datos</h3>
+                <p>
+                    Tengo un sólido conocimiento en bases de datos, especialmente en la sintaxis SQL, lo que me permite realizar consultas, manipulaciones y 
+                    gestión de datos de manera eficiente. He trabajado con implementaciones como MySQL, donde tengo una amplia experiencia en la creación y 
+                    administración de bases de datos, diseño de esquemas y optimización de consultas. También tengo experiencia con SQL Server, aunque mi dominio en 
+                    esta plataforma no es tan profundo, continúo aprendiendo y mejorando mis habilidades para utilizarla de manera más efectiva.
+                </p>
+            </div>
+
+            <div class="campo-cont-principal">
+                <h2 id="objetivo">Objetivo</h2>
+                <p>
+                    Mi principal objetivo profesional es dominar las herramientas y tecnologías que tengo a mi disposición, con el fin de convertirme en un programador 
+                    versátil y altamente competente. Aspiro a especializarme como un freelancer full stack, capaz de manejar tanto el frontend como el backend de proyectos 
+                    pequeños. Mi meta es ofrecer soluciones completas y eficientes, desde el diseño de la interfaz de usuario hasta la implementación de bases de datos y 
+                    la lógica del servidor, asegurando siempre la calidad y la satisfacción del cliente.
+                </p>
+            </div>
+
+            <div class="campo-cont-principal">
+                <h2 id="proyectos">Proyectos</h2>
+                <p>
+
+                </p>
             </div>
 
             <div class="campo-cont-principal">
@@ -105,33 +144,37 @@
                     <legend>Información de Contacto</legend>
 
                     <div class="contenedor-campos">
-                    <div class="campo">
-                        <label>Nombre:</label>
-                        <input type="text" placeholder="Tu nombre">
+                        <div id="form-nombre" class="campo">
+                            <label>Nombre:</label>
+                            <input class="input-text" type="text" placeholder="Tu nombre">
+                        </div>
+                        
+                        <div id="form-apellido" class="campo">
+                            <label>Apellido:</label>
+                            <input class="input-text" type="text" placeholder="Tu apellido">
+                        </div>
+
+                        <div id="form-telefono" class="campo">
+                            <label>Teléfono:</label>
+                            <input class="input-text" type="tel" placeholder="Tu teléfono">
+                        </div>
+
+                        <div id="form-email" class="campo">
+                            <label>Correo:</label>
+                            <input class="input-text" type="email" placeholder="Tu correo">
+                        </div>
+
+                        <div id="form-mensaje" class="campo">
+                            <label>Mensaje:</label>
+                            <textarea class="input-text" cols="30" rows="10"></textarea>
+                        </div>
+                    
+                        
+                    </div> <!-- .contenedor-campos -->
+                    <div class="enviar">
+                        <input class="boton" type="submit" value="Enviar formulario">
                     </div>
                     
-                    <div class="campo">
-                        <label>Apellido:</label>
-                        <input type="text" placeholder="Tu apellido">
-                    </div>
-
-                    <div class="campo">
-                        <label>Teléfono:</label>
-                        <input type="tel" placeholder="Tu teléfono">
-                    </div>
-
-                    <div class="campo">
-                        <label>Correo:</label>
-                        <input type="email" placeholder="Tu correo">
-                    </div>
-
-                    <div class="campo">
-                        <label>Mensaje:</label>
-                        <textarea cols="30" rows="10"></textarea>
-                    </div>
-                
-                    <input type="submit" value="Enviar formulario">
-                    </div> <!-- .contenedor-campos -->
 
                 </fieldset>
                 </form>
