@@ -177,6 +177,16 @@ img {
   height: 20rem;
 }
 
+.contenido-hero h1 {
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+    .contenido-hero h1{
+      margin: 2.5rem 0;
+    }
+}
+
 .hero-informacion {
   display: flex;
   justify-content: center;
@@ -191,7 +201,7 @@ img {
   }
 
   .hero-informacion p {
-    margin: 0.5rem auto;
+    margin: 0.5rem auto 0;
   }
 }
 
