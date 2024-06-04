@@ -1,182 +1,234 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Curriculum Viate</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Krub:wght@300;400;500;700&display=swap" rel="stylesheet">
-  <link href="stylesheets/style.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Curriculum Vitae, HTML, CSS, JavaScript, PHP, desarrollador, Nestor Arias, Java, Python">
+    <meta name="description" content="Curriculum Vitae de Néstor Arias Velásquez, con habilidades en lenguajes de programación, desarrollo web y bases de datos.">
+    <meta name="author" content="Arias Velásquez Néstor Ignacio">
+    <title>Curriculum Viate</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="stylesheets/style.css" rel="stylesheet" type="text/css" />
 </head>
-
 <body>
-  <header class="header">
-    <h1 class="titulo w-700">Curriculum Vitae <span class="w-500">Néstor Arias</span></h1>
+    <header>
+        <header class="header">
+            <h1 class="titulo w-700">Curriculum Vitae <span class="w-500">Néstor Arias</span></h1>
+        
+            <div class="nav-bg">
+              <nav class="navegacion contenedor">   
+                <a href="#educacion">Educación</a>
+                <a href="#habilidades">Habilidades</a>
+                <a href="#objetivo">Objetivo</a>
+                <a href="#proyecto">Proyecto</a>
+                <a href="#contacto">Contacto</a> 
+              </nav>
+            </div>
+            
+          </header>
+    </header>
 
-    <div class="nav-bg">
-      <nav class="navegacion contenedor">    
-        <a href="#informacion-personal">Información Personal</a>
-        <a href="#educacion">Educación</a>
-        <a href="#habilidades">Habilidades</a>
-        <a href="#contacto">Contacto</a> 
-      </nav>
-    </div>
+    <section class="hero">
+        <div class="contenido-hero">
+            <img class="imagen-perfil" src="https://placehold.co/200x200" alt="Imagen de Perfil">
+            <h1>Néstor Arias Velásquez</h1>
+
+            <div class="hero-informacion">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                    <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                </svg>
+                <p>Guayaquil, Ecuador</p>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                </svg>
+                <p>+593 0986113205</p>
+            </div>
+        </div>
+    </section>
+
     
-  </header>
+    <main class="contenedor g-2c contenedor-principal">
+        <aside class="informacion-personal">                     
+            <div class="info-per">
+                <h2 class="uppercase ls-1">Datos Personales</h2>
+                <p>Guayaquil, Ecuador</p>
+                <p>+593 0986113204</p>
+                <p>niarias@espol.edu.ec</p>  
 
-  <section class="contenedor">
-    <h2 id="informacion-personal">Información Personal</h2>
-    <div>
-      <img src="https://placehold.co/150x225">
-      <p>Etiam turpis elit, convallis ac sem in, vehicula posuere urna. Donec quam nisi, egestas vitae ante suscipit,
-        venenatis sollicitudin magna. Vivamus euismod consequat ultricies. Donec gravida dolor feugiat accumsan
-        porttitor. Proin diam ex, feugiat et nulla ut, ultrices aliquam erat. Morbi pharetra, tellus id maximus
-        accumsan, enim justo pulvinar urna, nec luctus ante felis quis tortor. Sed interdum tempor dui, in congue leo
-        pharetra ac. Morbi vel risus eleifend, dapibus leo sed, consectetur odio. Phasellus scelerisque tincidunt augue
-        sit amet dapibus. Donec varius elit in justo ornare, sed iaculis ipsum pulvinar. Praesent et nulla quis diam
-        fringilla facilisis eu a eros.</p>
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255168.19789702145!2d-79.9801008!3d-2.15250125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d13cbe855805f%3A0x8015a492f4fca473!2sGuayaquil!5e0!3m2!1ses-419!2sec!4v1716230594253!5m2!1ses-419!2sec"
-        width="300" height="193" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-  </section>
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255168.19789702145!2d-79.9801008!3d-2.15250125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d13cbe855805f%3A0x8015a492f4fca473!2sGuayaquil!5e0!3m2!1ses-419!2sec!4v1716230594253!5m2!1ses-419!2sec"
+                width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-  <section class="contenedor">
-    <h2 id="educacion">Educación</h2>
-  </section>
+                <h2 class="uppercase ls-1 w-500">Fecha / Lugar de Nacimiento</h2>
+                <p>26/12/2002</p>
+                <p>Guayaquil</p>
+            </div>      
 
-  <section class="contenedor">
-    <h2 id="habilidades">Habilidades</h2>
-    <iframe width="480" height="309" src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-      title="Rick Astley - Never Gonna Give You Up (Official Music Video)" frameborder="1"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  
+            <div class="info-per">
+                <h2 class="uppercase ls-1">Aptitudes</h2>
+                <p>Trabajo en equipo</p>
+                <p>Comunicación activa</p>
+                <p>Iniciativa</p>
+                <p>Resolución de problemas</p>
+                <p>Excelente habilidad de presentación</p>
+            </div>
 
-  <div class="contenedor-habilidades">
-    <div class="habilidad">
-      <h3>Lenguajes de Programación</h3>
-      
-      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-python" width="44" height="44"
-        viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round"
-        stroke-linejoin="round">
-        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-        <path d="M12 9h-7a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h3" />
-        <path d="M12 15h7a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2h-3" />
-        <path
-          d="M8 9v-4a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v5a2 2 0 0 1 -2 2h-4a2 2 0 0 0 -2 2v5a2 2 0 0 0 2 2h4a2 2 0 0 0 2 -2v-4" />
-        <path d="M11 6l0 .01" />
-        <path d="M13 18l0 .01" />
-      </svg>
-      <ul>
-        <li>Python</li>
-        <li>Java</li>
-        <li>JavaScript</li>
-        <li>PHP</li>
-        <li>C</li>
-      </ul>
-    </div> <!-- .habilidad -->
+            <div class="info-per">
+                <h2 class="uppercase ls-1">Idiomas</h2>
+                <p>Español</p>
+                <p>Ingles</p>
+            </div>
+        </aside>
 
-    <div class="habilidad">
-      <h3>Desarrollo Web</h3>
-      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-chrome" width="44" height="44"
-        viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round"
-        stroke-linejoin="round">
-        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-        <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
-        <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
-        <path d="M12 9h8.4" />
-        <path d="M14.598 13.5l-4.2 7.275" />
-        <path d="M9.402 13.5l-4.2 -7.275" />
-      </svg>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>SASS</li>
-        <li>GULP</li>
-        <li>PHP</li>
-      </ul>
-    </div> <!-- .habilidad -->
+        <section class="contenido-principal">
+            <div class="campo-cont-principal">
+                <h2 id="educacion" class="uppercase ls-1">Educación</h2>
+                <p>
+                    Me gradué en la unidad educativa bilingue Liceo Los Andes, donde adquirí un gran dominio sobre el lenguaje ingles y habilidad oratoria en ambos lenguajes.
+                    Actualmente me encuentro estudiando la carrera de <a href="https://www.fiec.espol.edu.ec/es/carreras-de-grado/computacion" target="_blank">Computación en la Escuela Superior Politécnica del Litoral</a>, donde ya he completado
+                    la mitad de la carrera. 
+                </p>
+            </div>
+            
+            <div class="campo-cont-principal">
+                <h2 id="habilidades" class="uppercase ls-1">Habilidades</h2>
+                <h3>Lenguajes de Programación</h3>
+                <p>
+                    Poseo un sólido dominio de varios lenguajes de programación. Estoy especialmente bien versado en Java, PHP y Python, habiendo trabajado extensivamente con estos
+                    lenguajes en diversos proyectos académicos y personales. Tengo conocimientos básicos de C, lo cual me ha permitido entender los conceptos fundamentales de la
+                    programación de bajo nivel y la gestión de memoria. Además, tengo una comprensión básica de JavaScript, lo que me ha permitido incursionar en el desarrollo
+                    web y mejorar mi capacidad para crear aplicaciones interactivas y dinámicas.
+                </p>
+                <h3>Desarrollo Web</h3>
+                <p>
+                    En cuanto al desarrollo web, tengo un buen dominio de HTML, CSS y Sass, habilidades que me permiten crear interfaces de usuario atractivas y responsivas. 
+                    También manejo Gulp para la automatización de tareas y optimización de flujos de trabajo. Mi conocimiento de JavaScript y PHP me capacita para desarrollar 
+                    aplicaciones web dinámicas y funcionales, integrando tanto el frontend como el backend de los sitios web que desarrollo.
+                </p>
+                <h3>Bases de Datos</h3>
+                <p>
+                    Tengo un sólido conocimiento en bases de datos, especialmente en la sintaxis SQL, lo que me permite realizar consultas, manipulaciones y 
+                    gestión de datos de manera eficiente. He trabajado con implementaciones como MySQL, donde tengo una amplia experiencia en la creación y 
+                    administración de bases de datos, diseño de esquemas y optimización de consultas. También tengo experiencia con SQL Server, aunque mi dominio en 
+                    esta plataforma no es tan profundo, continúo aprendiendo y mejorando mis habilidades para utilizarla de manera más efectiva.
+                </p>
+            </div>
 
-    <div class="habilidad">
-      <h3>Bases de Datos</h3>
-      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-mysql" width="44" height="44"
-        viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round"
-        stroke-linejoin="round">
-        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-        <path
-          d="M13 21c-1.427 -1.026 -3.59 -3.854 -4 -6c-.486 .77 -1.501 2 -2 2c-1.499 -.888 -.574 -3.973 0 -6c-1.596 -1.433 -2.468 -2.458 -2.5 -4c-3.35 -3.44 -.444 -5.27 2.5 -3h1c8.482 .5 6.421 8.07 9 11.5c2.295 .522 3.665 2.254 5 3.5c-2.086 -.2 -2.784 -.344 -3.5 0c.478 1.64 2.123 2.2 3.5 3" />
-        <path d="M9 7h.01" />
-      </svg>
-      <ul>
-        <li>MySQL</li>
-        <li>SQL Server</li>
-      </ul>
-    </div> <!-- .habilidad -->
+            <div class="campo-cont-principal">
+                <h2 id="objetivo">Objetivo</h2>
+                <p>
+                    Mi principal objetivo profesional es dominar las herramientas y tecnologías que tengo a mi disposición, con el fin de convertirme en un programador 
+                    versátil y altamente competente. Aspiro a especializarme como un freelancer full stack, capaz de manejar tanto el frontend como el backend de proyectos 
+                    pequeños. Mi meta es ofrecer soluciones completas y eficientes, desde el diseño de la interfaz de usuario hasta la implementación de bases de datos y 
+                    la lógica del servidor, asegurando siempre la calidad y la satisfacción del cliente.
+                </p>
+            </div>
 
-    <div class="habilidad">
-      <h3>Control de Versiones</h3>
-      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="44" height="44"
-        viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round"
-        stroke-linejoin="round">
-        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-        <path
-          d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
-      </svg>
-      <ul>
-        <li>Git</li>
-        <li>Github</li>
-      </ul>
-    </div> <!-- .habilidad -->
-  </div> <!-- .contenedor-habilidades -->
+            <div class="campo-cont-principal">
+                <h2 id="proyectos">Proyectos</h2>
 
-  </section>
+                <div class="contenedor-proyectos">
+                    <div class="proyecto"> 
+                        <a href="https://github.com/Niariasve/ajedrezTres" target="_blank">                      
+                            <img src="img/ajedrezPoo.PNG" alt="Proyecto Ajedrez programacion orientada a objetos">
+                            <div class="img-overlay">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="44" height="44" viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M9 15l6 -6" />
+                                    <path d="M11 6l.463 -.536a5 5 0 0 1 7.071 7.072l-.534 .464" />
+                                    <path d="M13 18l-.397 .534a5.068 5.068 0 0 1 -7.127 0a4.972 4.972 0 0 1 0 -7.071l.524 -.463" />
+                                </svg>
+                                <p class="w-500">Ajedrez</p>
+                            </div>  
+                        </a>                                           
+                    </div>
 
-  <section class="contenedor">
-    <h2 id="contacto">Contacto</h2>
-    <form class="formulario">
-      <fieldset>
-        <legend>Información de Contacto</legend>
+                    <div class="proyecto">  
+                        <a href="https://github.com/Niariasve/AppContactos" target="_blank">                                             
+                            <img src="img/appContactos.PNG" alt="Proyecto appContactos Estructuras de datos">
+                            <div class="img-overlay">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="44" height="44" viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M9 15l6 -6" />
+                                    <path d="M11 6l.463 -.536a5 5 0 0 1 7.071 7.072l-.534 .464" />
+                                    <path d="M13 18l-.397 .534a5.068 5.068 0 0 1 -7.127 0a4.972 4.972 0 0 1 0 -7.071l.524 -.463" />
+                                </svg>
+                                <p class="w-500">App Contactos</p>
+                            </div>
+                        </a>                                           
+                    </div>
 
-        <div class="contenedor-campos">
-          <div class="campo">
-            <label>Nombres:</label>
-            <input type="text" placeholder="Tu nombre">
-          </div>
-          
-          <div class="campo">
-            <label>Apellido:</label>
-            <input type="text" placeholder="Tu apellido">
-          </div>
+                    <div class="proyecto">  
+                        <a href="https://github.com/jair-chaguay/AppTicTacToe/tree/main/TicTacToeV1" target="_blank">                
+                            <img src="img/tresEnRaya.PNG" alt="Proyecto tres en raya estructuras de datos">
+                            <div class="img-overlay">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="44" height="44" viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M9 15l6 -6" />
+                                    <path d="M11 6l.463 -.536a5 5 0 0 1 7.071 7.072l-.534 .464" />
+                                    <path d="M13 18l-.397 .534a5.068 5.068 0 0 1 -7.127 0a4.972 4.972 0 0 1 0 -7.071l.524 -.463" />
+                                </svg>
+                                <p class="w-500">Tres en raya</p>
+                            </div>
+                        </a> 
+                    </div>
+                </div>              
+            </div>
 
-          <div class="campo">
-            <label>Teléfono:</label>
-            <input type="tel" placeholder="Tu teléfono">
-          </div>
+            <div class="campo-cont-principal">
+                <h2 id="contacto">Contacto</h2>
+                <form class="formulario">
+                <fieldset>
+                    <legend>Información de Contacto</legend>
 
-          <div class="campo">
-            <label>Correo:</label>
-            <input type="email" placeholder="Tu correo">
-          </div>
+                    <div class="contenedor-campos">
+                        <div id="form-nombre" class="campo">
+                            <label>Nombre:</label>
+                            <input class="input-text" type="text" placeholder="Tu nombre">
+                        </div>
+                        
+                        <div id="form-apellido" class="campo">
+                            <label>Apellido:</label>
+                            <input class="input-text" type="text" placeholder="Tu apellido">
+                        </div>
 
-          <div class="campo">
-            <label>Mensaje:</label>
-            <textarea cols="30" rows="10"></textarea>
-          </div>
-     
-          <input type="submit" value="Enviar formulario">
-        </div> <!-- .contenedor-campos -->
+                        <div id="form-telefono" class="campo">
+                            <label>Teléfono:</label>
+                            <input class="input-text" type="tel" placeholder="Tu teléfono">
+                        </div>
 
-      </fieldset>
-    </form>
-  </section>
+                        <div id="form-email" class="campo">
+                            <label>Correo:</label>
+                            <input class="input-text" type="email" placeholder="Tu correo">
+                        </div>
 
-  <footer>
-    <p>TODOS LOS DERECHOS RESERVADOS 2024. Néstor Arias &copy;</p>
-  </footer>
+                        <div id="form-mensaje" class="campo">
+                            <label>Mensaje:</label>
+                            <textarea class="input-text" cols="30" rows="10"></textarea>
+                        </div>
+                    
+                        
+                    </div> <!-- .contenedor-campos -->
+                    <div class="enviar">
+                        <input class="boton" type="submit" value="Enviar formulario">
+                    </div>
+                    
+
+                </fieldset>
+                </form>
+            </div>
+        </section>        
+    </main>
+    
+
+    <footer>
+
+    </footer>
 </body>
-
 </html>
