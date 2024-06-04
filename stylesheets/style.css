@@ -390,3 +390,18 @@ input, button, textarea {
       width: fit-content;
     }
 }
+
+/* Footer */
+
+.footer {
+  height: 10rem;
+  background-color: var(--secundario);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer p {
+  text-align: center;
+  color: var(--blanco);
+}
