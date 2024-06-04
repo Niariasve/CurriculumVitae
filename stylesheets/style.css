@@ -280,8 +280,16 @@ img {
 }
 
 .proyecto img {
-  height: 36rem;
-  width: min(100%, 60rem);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  height: auto;
+}
+
+@media (min-width: 768px) {
+    .proyecto img {
+      height: 36rem;      
+    }
 }
 
 .proyecto .img-overlay {
